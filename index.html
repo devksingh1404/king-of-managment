@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King of Management – Event &amp; Wedding Planner in Mirzapur</title>
+    <meta
+      name="description"
+      content="King of Management in Mirzapur plans weddings, pooja path, mundan, baby welcome, birthdays, corporate galas, catering & vendor partnerships. Book now."
+    />
+    <meta
+      name="keywords"
+      content="King of Management, event management Mirzapur, wedding planner Mirzapur, pooja path Griha Pravesh Mirzapur, mundan baby welcome namkaran Mirzapur, birthday party organizer Mirzapur, corporate event planner Mirzapur, event vendor join Mirzapur"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="King of Management" />
+    <meta name="geo.region" content="IN-UP" />
+    <meta name="geo.placename" content="Mirzapur" />
+
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="King of Management" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="King of Management – Event &amp; Wedding Planner in Mirzapur" />
+    <meta
+      property="og:description"
+      content="Full-service event production in Mirzapur for royal weddings, birthday celebrations, corporate parties, catering, and stage lighting."
+    />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="King of Management – Event &amp; Wedding Planner in Mirzapur" />
+    <meta
+      name="twitter:description"
+      content="Full-service event production in Mirzapur for royal weddings, birthday celebrations, corporate parties, catering, and stage lighting."
+    />
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EventPlanner",
+        "name": "King of Management",
+        "description": "Full-service wedding, birthday party, corporate gala, catering, and decor event management company in Mirzapur, Uttar Pradesh.",
+        "telephone": "+91-98390-45120",
+        "email": "bookings@kingofmanagement.in",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Station Road, Civil Lines",
+          "addressLocality": "Mirzapur",
+          "addressRegion": "Uttar Pradesh",
+          "postalCode": "231001",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Mirzapur" },
+          { "@type": "City", "name": "Vindhyachal" },
+          { "@type": "City", "name": "Chunar" },
+          { "@type": "City", "name": "Varanasi" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "09:00",
+            "closes": "21:30"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "148"
+        }
+      }
+    </script>
+
+    <!-- Prevent theme flash on initial load -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('kom_theme');
+          if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAF9F6] text-[#141413] dark:bg-[#0B0B0D] dark:text-[#F5F4F0] antialiased selection:bg-amber-600/20 selection:text-amber-900 dark:selection:text-amber-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

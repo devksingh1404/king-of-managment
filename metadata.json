@@ -1,0 +1,10 @@
+{
+  "name": "King of Management",
+  "description": "Premier wedding, birthday, corporate party, and full-scale event management services in Mirzapur, Uttar Pradesh.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
